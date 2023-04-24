@@ -1,0 +1,22 @@
+#parent {
+    display: flex;
+    flex: 1;
+}
+
+#child-left {
+    background-color: antiquewhite;
+    flex: 1 1;
+}
+
+#child-right {
+    background-color: azure;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
