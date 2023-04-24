@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
+
+#media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section {
+    padding: 0 10px;
+}
+
+.media-items:hover {
+    color: red;
+}

@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import Login from './screens/login';
+import Header from './components/header';
+// import Login from './screens/login';
+import Home from './screens/home';
 
 function App() {
   return (
     <div className="App">
-        <Login />
+      <Header />
+      <Home />
     </div>
   );
 }
