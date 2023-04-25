@@ -4,19 +4,57 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: black;
+    background-color: wheat;
     color: white;
     height: 50px;
 }
 
-#media {
+#left-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+#left-child img {
+    height: 50px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.left-child-item {
+    margin: 0 5px;
+}
+
+#right-child {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-section {
-    padding: 0 10px;
+#right-child button {
+    margin: 10px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.media-items1 {
+    border: 0px;
+    background-color: transparent;
+}
+
+.media-items2 {
+    border: 1px solid purple;
+    color: purple;
+    background-color: transparent;
+}
+
+.media-items3 {
+    border: 0px;
+    color: white;
+    background-color: purple;
 }
 
 .media-items:hover {
